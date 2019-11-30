@@ -23,7 +23,7 @@ router.get('/login', function(req,res,next){
   res.render('login' , {title:'Login here!!'});
 });
 
-router.post('/register' , controller.registerX);
+router.post('/' , controller.registerX);
 router.post('/login', controller.loginX);
 
 module.exports = router;
