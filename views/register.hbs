@@ -1,0 +1,20 @@
+<h1>{{title}}</h1>
+
+<form action="/register" method="POST">
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder='input name' class="form-control" required>
+    </div>
+    <br>
+
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="input email" class="form-control" required>
+    </div>
+    <br>
+    <div>
+        <label for="pwd">Password:</label>
+        <input type="password" name="password" placeholder="input password" class="form-control" required>
+    </div>
+    <button type="submit" class="btn btn-danger my-4">Submit</button>
+</form>

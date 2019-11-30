@@ -1,0 +1,19 @@
+<h1>{{title}}</h1>
+
+<form action="/login"  method="POST">
+
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" class="form-control" required>
+        <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+
+    </div>
+    <br>
+    <div>
+        <label for="pwd">Password:</label>
+        <input type="password" name="password"  class="form-control" required>
+    </div>
+    <button type="submit" class="btn btn-danger my-4">Submit</button>
+</form>
+
+<p>{{text}}</p>
