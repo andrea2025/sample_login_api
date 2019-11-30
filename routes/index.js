@@ -16,7 +16,7 @@ router.get('/logout', verify, function(req,res,next){
 })
 
 router.get('/', function(req,res,next){
-  res.render('index' , {title:'Register here!!'});
+  res.render('register' , {title:'Register here!!'});
 });
 
 router.get('/login', function(req,res,next){
