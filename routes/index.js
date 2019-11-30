@@ -15,7 +15,7 @@ router.get('/logout', verify, function(req,res,next){
   res.render('login' , {text:'Thank you for visiting'});
 })
 
-router.get('/register', function(req,res,next){
+router.get('/', function(req,res,next){
   res.render('register' , {title:'Register here!!'});
 });
 
