@@ -49,7 +49,7 @@ const loginX = async (req, res) => {
         return res.redirect('/about');
       }
     }
-  } catch {
+  } catch(err) {
     return next(err);
   }
 };
