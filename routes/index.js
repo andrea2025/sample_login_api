@@ -4,9 +4,9 @@ var controller = require('../controller/user');
 var verify = require('../middleware/session');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+// router.get('/', function(req, res, next) {
+//   res.render('index', { title: 'Express' });
+// });
 router.get('/about', verify, function(req,res,next){
   res.render('about');
 })
